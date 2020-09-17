@@ -63,7 +63,15 @@ table {
   margin: 0 auto;
 }
 
+.btn {
+  padding: 15px 47px;
+  background-color: #00AFDB;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .hero {
+  width: 1600px;
   min-height: 744px;
 
   background-color: #000;
@@ -74,6 +82,7 @@ table {
 
 .header {
   padding: 24px 0px;
+  margin-bottom: 130px;
 }
 
 .nav__list {
@@ -106,4 +115,46 @@ table {
 
 .nav__item .nav__link--active {
   border-bottom: 1px solid #fff;
+}
+
+.page__title {
+  margin-bottom: 20px;
+  font-size: 64px;
+  line-height: 1.17;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4.5px;
+}
+
+.hero__center {
+  margin-bottom: 183px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__desc {
+  width: 470px;
+  margin-bottom: 30px;
+
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+}
+
+.hero__bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials__item {
+  margin-right: 30px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
 }
