@@ -101,6 +101,11 @@ table {
   color: var(--dark2);
 }
 
+.section__title--subscribe {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
 .card-title {
   margin-bottom: 10px;
 
@@ -333,4 +338,61 @@ table {
 
 .tip__text {
   margin-bottom: 30px;
+}
+
+.subscribe {
+  min-height: 598px;
+  height: 1px;
+  background: url('/assets/img/sign-up.jpg') no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.subscribe__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribe__container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe__row {
+  display: flex;
+}
+
+.subscribe__input {
+  width: 340px;
+  height: 46px;
+  padding: 10px 24px;
+  border: none;
+
+  color: var(--dark2);
+}
+
+.subscribe__input::-webkit-input-placeholder { 
+  color: var(--dark2); 
+}
+
+.subscribe__input::-moz-placeholder  { 
+  color: var(--dark2); 
+}
+
+.subscribe__input:-ms-input-placeholder  { 
+  color: var(--dark2); 
+}
+
+.subscribe__submit {
+  width: 66px;
+  height: 46px;
+  background-color: var(--blue);
+}
+
+.subscribe__submit:hover {
+  cursor: pointer;
+  background-color: var(--blue-dark);
+  transition: .3s;
 }
