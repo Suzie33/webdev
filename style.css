@@ -130,12 +130,12 @@ table {
   width: 1600px;
   min-height: 744px;
   margin: 0 auto;
-  background: url('/assets/img/bg-image1.jpg') no-repeat 50% 50%;
+  background: url('assets/img/bg-image1.jpg') no-repeat 50% 50%;
   background-size: cover; 
 }
 
 .header {
-  padding: 24px 0px;
+  padding: 23px 0px;
   margin-bottom: 130px;
 }
 
@@ -362,7 +362,7 @@ table {
 .subscribe {
   min-height: 598px;
   height: 1px;
-  background: url('/assets/img/sign-up.jpg') no-repeat 50% 50%;
+  background: url('assets/img/sign-up.jpg') no-repeat 50% 50%;
   background-size: cover;
 }
 
