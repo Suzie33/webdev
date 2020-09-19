@@ -214,6 +214,11 @@ table {
   margin-right: 0;
 }
 
+.socials__item:hover {
+  opacity: .7;
+  transition: .3s;
+}
+
 .socials__link {
   display: inline-flex;
 }
@@ -235,6 +240,11 @@ table {
 
 .about__text {
   margin-bottom: 30px;
+}
+
+.about__text-bold {
+  font-weight: 500;
+  color: var(--dark2);
 }
 
 .community {
@@ -311,7 +321,7 @@ table {
 
 .controls__btn:hover {
   cursor: pointer;
-  opacity: .7;
+  opacity: .6;
 }
 
 .controls__counters {
@@ -342,6 +352,11 @@ table {
 
 .tip__text {
   margin-bottom: 30px;
+}
+
+.tip__text-bold {
+  font-weight: 500;
+  color: var(--dark2);
 }
 
 .subscribe {
@@ -396,7 +411,6 @@ table {
 }
 
 .subscribe__form:hover .subscribe__submit {
-
   cursor: pointer;
   background-color: var(--blue-dark);
   transition: .3s;
@@ -457,11 +471,11 @@ table {
   color: #fff;
   font-weight: 700;
   background-color: var(--blue);
+  transition: .3s;
 }
 
 .download__btn:hover .download__btn-text {
   background-color: var(--blue-dark);
-  transition: .3s;
 }
 
 .download__btn-icon {
@@ -485,6 +499,7 @@ table {
 }
 
 .footer__links {
+  width: 500px;
   display: flex;
 }
 
@@ -521,5 +536,7 @@ table {
 }
 
 .footer__copy {
+  width: 500px;
+  text-align: right;
   color: var(--gray-dark);
 }
